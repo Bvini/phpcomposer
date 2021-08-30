@@ -1,0 +1,21 @@
+{
+    "name": "pixel/composer-test",
+    "description": "test for package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nagaraj",
+            "email": "jackteam923@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":"7.4.13.*"
+    },
+    "autoload": {
+        "psr-4":{
+            "Generator\\": "./"
+        }
+    }
+}

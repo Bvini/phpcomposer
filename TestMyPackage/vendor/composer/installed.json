@@ -1,0 +1,32 @@
+[
+    {
+        "name": "pixel/composer-test",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "../Generator",
+            "reference": "8ff5b0a6b915d0516a100b126d218f6e8a70cb9f"
+        },
+        "require": {
+            "php": "7.4.13.*"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Generator\\": "./"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nagaraj",
+                "email": "jackteam923@gmail.com"
+            }
+        ],
+        "description": "test for package"
+    }
+]

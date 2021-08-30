@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0e59354660bc49e9f9f66a3d09a23bbd",
+    "packages": [
+        {
+            "name": "pixel/composer-test",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../Generator",
+                "reference": "8ff5b0a6b915d0516a100b126d218f6e8a70cb9f"
+            },
+            "require": {
+                "php": "7.4.13.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Generator\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nagaraj",
+                    "email": "jackteam923@gmail.com"
+                }
+            ],
+            "description": "test for package"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pixel/composer-test": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "7.4.13"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

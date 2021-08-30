@@ -1,0 +1,24 @@
+{
+    "name": "pixel/test-my-package",
+    "description": "test for composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nagaraj",
+            "email": "jackteam923@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php":"7.4.13",
+      "pixel/composer-test":"dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../Generator"
+        }
+    ],
+    "prefer-stable": true
+}
